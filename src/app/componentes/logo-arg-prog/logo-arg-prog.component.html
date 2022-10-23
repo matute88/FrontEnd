@@ -1,19 +1,30 @@
 <div class="row">
-    <div class="container">
-        <div class="logo">
-          <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"><img src="../../../assets/APLogo.png" id="logoArgProg"alt=""></a>
-        </div>
-          <div class="redes">
-             <div>
-                <a href="https://www.facebook.com/Matute88/"><img src="../../../assets/facebook.png" alt=""></a>
-                <a href="https://github.com/matute88"><img src="../../../assets/github.png" alt=""></a>
-                <a href="https://www.instagram.com/matias_julian_luque/"><img src="../../../assets/instagram.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/matias-julian-luque-33a93722a/"><img src="../../../assets/linkedin.png" alt=""></a>
-                <a href="https://twitter.com/MatiasL96734012"><img src="../../../assets/twitter.png" alt=""></a>
-            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
-            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
-          </div>
+  <div class="container">
+    <div class="logo">
+      <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"><img
+          src="../../../assets/APLogo.png" id="logoArgProg" alt=""></a>
     </div>
+    <div class="redes">
+      <div>
+        <p>
+          <a href="https://www.facebook.com/Matute88/"><img src="../../../assets/facebook.png" alt=""></a>
+          <a href="https://github.com/matute88"><img src="../../../assets/github.png" alt=""></a>
+          <a href="https://www.instagram.com/matias_julian_luque/"><img src="../../../assets/instagram.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/matias-julian-luque-33a93722a/"><img src="../../../assets/linkedin.png"
+              alt=""></a>
+          <a href="https://twitter.com/MatiasL96734012"><img src="../../../assets/twitter.png" alt=""></a>
+        </p>
+      </div>
+        <div class="boton">
+        <p>
+          <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+        </p>
+        <p>
+          <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR
+            SESION</button>
+        </p>
+      </div>
+      </div>
+    
+  </div>
 </div>
-</div>
-
